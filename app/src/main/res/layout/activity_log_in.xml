@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".UI.LogIn">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RelativeLayout
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="245dp"
+                android:background="@drawable/logo" />
+
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/input_design"
+                android:hint="    Email"
+                android:padding="5dp"
+                android:layout_below="@+id/imageView"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/colorPrimary" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/editText6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:hint="    Password"
+                android:textColorHint="@color/colorPrimary"
+                app:passwordToggleEnabled="true"
+                android:layout_below="@+id/editText5"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp">
+
+            <EditText
+                android:id="@+id/editTextPass"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="5dp"
+                android:layout_below="@+id/editText5"
+                android:background="@drawable/input_design"
+                android:inputType="textPassword" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <com.rey.material.widget.CheckBox
+                android:id="@+id/remember_me_chkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText6"
+                style="@style/Material.Drawable.CheckBox"
+                android:gravity="center"
+                android:textColor="#000"
+                app:cbd_strokeColor="#000"
+                android:checked="true"
+                android:text="Remember Me"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@id/editText6"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="110dp"
+                android:background="@drawable/transperant"
+                android:drawableEnd="@drawable/left_arrow"
+                android:text="@string/login_txt"
+                android:textAllCaps="false"
+                android:textAlignment="viewEnd"
+                android:textColor="#000"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/editText6"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:background="@drawable/round_button"
+                android:onClick="logIn"
+                android:text="\u2713"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="25dp"
+                android:textColor="#000"
+                android:layout_marginEnd="20dp"
+                android:onClick="ForgotPassword"
+                android:text="Forgot Password"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/userLogInTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText6"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:text="I'm not an Admin?"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/adminLogInTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText6"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:text="I'm an Admin?"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

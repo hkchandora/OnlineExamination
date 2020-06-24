@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">TCSC Exam</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">User Name</string>
+    <string name="nav_header_subtitle">usermail@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="btn_next"><![CDATA[Next >>]]></string>
+    <string name="login_btn_txt"><![CDATA[->]]></string>
+    <string name="login_txt"><![CDATA[Sign In]]></string>
+    <string name="user_detail"><b>User Details :</b></string>
+    <string name="college_detail"><b>College Details :</b></string>
+    <string name="register"><u>Register Your Self</u></string>
+
+
+    <string-array name="stream_array">
+        <item>Choose Stream</item>
+        <item>Degree Science</item>
+        <item>Degree Commerce</item>
+        <item>Junior Science</item>
+        <item>Junior Commerce</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Transgender</item>
+    </string-array>
+
+    <string-array name="division">
+        <item>Select Division</item>
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+
+    <string-array name="questionNo">
+        <item>Choose Question</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+</resources>

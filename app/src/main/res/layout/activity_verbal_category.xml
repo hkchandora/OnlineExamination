@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".Admin.VerbalCategory">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select The Subject"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/spot_errors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Spot Errors"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/selecting_words"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Selecting Words"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/ordering_words"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Ordering Words"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/complete_statement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Complete Statement"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/closer_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Closet Test"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/idioms_phrases"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Idioms &amp; Phrases"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/verbal_analogies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Verbal Analogies"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/synonyms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Synonyms"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/spellings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Spellings"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/sentence_correction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Sentence Correction"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/order_sentences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Order Sentences"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/comprehension"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Comprehension"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/change_of_voice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Change of Voice"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/antonyms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Antonyms"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/sentence_formation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Sentence Formation"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/sentence_improvement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Sentence Improvement"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/paragraph_formation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Paragraph Formation"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/substitute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartVerbal"
+                android:text="Substitute"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

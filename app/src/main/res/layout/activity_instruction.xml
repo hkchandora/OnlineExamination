@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg1"
+    tools:context=".UI.Instruction">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_weight="0.00"
+            android:gravity="center_horizontal"
+            android:text="INSTRUCTIONS"
+            android:textColor="#C4D0EB"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/inputs"
+            android:clickable="false"
+            android:editable="false"
+            android:inputType="none"
+            android:padding="14dp"
+            android:text=" * This test is prepared technical language in  different fields.
+        \n\n * You have 10 minutes to answer 10 questions. \n\n * You are not rewarded for finishing before time is up-so take your time!
+        \n\n *Wrong answers do not influence your result-so guess rather than omit a question. \n\n* When you answer a question, you have a chance to go back to check it again. \n\n ** Good luck with the test!! **"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/buttons"
+            android:drawableEnd="@drawable/ic_arrow_forward_black_24dp"
+            android:padding="15dp"
+            android:layout_margin="20dp"
+            android:onClick="StartExam"
+            android:text="Start Exam "
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

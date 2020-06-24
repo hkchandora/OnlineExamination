@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".UI.SubjectExam">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select The Subject"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="bold|italic"/>
+
+
+            <TextView
+                android:id="@+id/c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:onClick="Start"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/cPlus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C++"
+                android:onClick="Start"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/coreJava"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Core Java"
+                android:onClick="Start"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/html"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HTML"
+                android:onClick="Start"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/python"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Python"
+                android:onClick="Start"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/dbms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DBMS"
+                android:onClick="Start"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/dataStructure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Structure"
+                android:onClick="Start"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".Admin.AptitudeCategory">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Select The Subject"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+                android:id="@+id/hcl_lcm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="HCL &amp; LCM"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/trains"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Trains"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/time_work"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Time &amp; Work"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/profit_loss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Profit &amp; Loss"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/ages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Ages"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/averages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Averages"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/permutations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Permutations"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/numbers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Numbers"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/pipes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Pipes"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/logarithms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Logarithms"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/probability"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Probability"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/height_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Height &amp; Distance"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/percentages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Percentages"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/mixtures"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Mixtures"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/stocks_shares"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Stocks &amp; Shares"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/banker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Banker's Discount"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/time_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Time &amp; Distance"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/simple_interest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Simple Interest"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/compound_interest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Compound Interest"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/partnerships"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Partnerships"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/calendar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Calendar"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Area"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/clock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Clock"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/volume_surface"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Volume &amp; Surface"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/ratio_proportion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Ratio &amp; Proportion"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/boats_streams"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Boats &amp; Streams"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/races_games"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="Races &amp; Games"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/true_discount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="StartAptitude"
+                android:text="True Discount"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

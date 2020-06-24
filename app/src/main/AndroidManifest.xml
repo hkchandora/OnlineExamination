@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.himanshu.examination">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.himanshu.examination.Admin.AdminMain"></activity>
+        <activity android:name="com.himanshu.examination.Admin.RegisteredUsers" />
+        <activity
+            android:name="com.himanshu.examination.UI.EditProfile"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.himanshu.examination.Admin.VerbalCategory" />
+        <activity android:name="com.himanshu.examination.Admin.ReasoningCategory" />
+        <activity android:name="com.himanshu.examination.Admin.AptitudeCategory" />
+        <activity android:name="com.himanshu.examination.Admin.SubjectCategory" />
+        <activity android:name="com.himanshu.examination.UI.HistoryCategory" />
+        <activity android:name="com.himanshu.examination.Admin.ChooseAction" />
+        <activity android:name="com.himanshu.examination.UI.Instruction" />
+        <activity android:name="com.himanshu.examination.UI.End" />
+        <activity android:name="com.himanshu.examination.Admin.ViewQuestion" />
+        <activity android:name="com.himanshu.examination.Admin.UpdateQuestion" />
+        <activity android:name="com.himanshu.examination.UI.Result" />
+        <activity android:name="com.himanshu.examination.Admin.UploadQuestion" />
+        <activity android:name="com.himanshu.examination.UI.EmailVerifyActivity" />
+        <activity android:name="com.himanshu.examination.UI.Start" />
+        <activity
+            android:name="com.himanshu.examination.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.himanshu.examination.UI.QuestionBank" />
+        <activity android:name="com.himanshu.examination.UI.Verbal" />
+        <activity android:name="com.himanshu.examination.UI.Reasoning" />
+        <activity android:name="com.himanshu.examination.UI.Aptitude" />
+        <activity android:name="com.himanshu.examination.UI.History" />
+        <activity android:name="com.himanshu.examination.UI.Developer" />
+        <activity android:name="com.himanshu.examination.UI.Profile" />
+        <activity android:name="com.himanshu.examination.Questions.Question" />
+        <activity android:name="com.himanshu.examination.UI.SubjectExam" />
+        <activity
+            android:name="com.himanshu.examination.UI.LogIn"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.himanshu.examination.UI.SignUp"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.himanshu.examination.UI.SplashScreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.EditProfile">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="start"
+        android:background="@drawable/ic_back_arrow"
+        android:onClick="BackButtonEditProfile"
+        android:layout_alignParentStart="true"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/profileImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="10dp"
+                android:contentDescription="Profile"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:onClick="ChangeProfilePhoto"
+                android:text="Change Profile"
+                android:textAlignment="center"
+                android:textColor="#B00125F7"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:focusable="true"
+                android:hint="    Name"
+                android:textColorHint="@color/colorPrimary">
+
+                <EditText
+                    android:id="@+id/profileName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/input_design"
+                    android:inputType="text"
+                    android:padding="5dp" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Spinner
+                android:id="@+id/profileGender"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/input_design"
+                android:entries="@array/gender"
+                android:inputType="text"
+                android:padding="5dp" />
+
+            <Spinner
+                android:id="@+id/profileStream"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/input_design"
+                android:entries="@array/stream_array"
+                android:textAlignment="viewStart" />
+
+            <Spinner
+                android:id="@+id/profileClass"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/input_design" />
+
+            <Spinner
+                android:id="@+id/profileDivision"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/input_design"
+                android:entries="@array/division" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:focusable="true"
+                android:hint="    Roll NO"
+                android:textColorHint="@color/colorPrimary">
+
+                <EditText
+                    android:id="@+id/profileRollNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/input_design"
+                    android:inputType="text"
+                    android:padding="5dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:focusable="true"
+                android:hint="    Address"
+                android:textColorHint="@color/colorPrimary">
+
+                <EditText
+                    android:id="@+id/profileAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/input_design"
+                    android:inputType="textMultiLine"
+                    android:padding="5dp" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/buttons"
+                android:onClick="SaveProfile"
+                android:text="Save"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

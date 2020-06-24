@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/changeQuestion"
+        android:title="Change Question" />
+
+    <item
+        android:id="@+id/viewQuestion"
+        android:title="View Question" />
+    <item
+        android:id="@+id/logOutMenu"
+        android:title="Log Out" />
+</menu>

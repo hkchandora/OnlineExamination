@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".Admin.ReasoningCategory">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select The Subject"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/number_series"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Number Series"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/essential_part"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Essential Part"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/logical_problems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logical Problems"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/assumptions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assumptions"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/theme_detection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Theme Detection"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/logical_deduction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logical Deduction"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/symbol_series"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Symbol Series"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/analogies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Analogies"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/making_judgments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Making Judgments"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/logic_games"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logic Games"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/course_of_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course of Action"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/cause_effect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cause &amp; Effect"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/verbal_classification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verbal Classification"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/artificial_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artificial Language"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/verbal_reasoning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verbal Reasoning"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/analysing_arguments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Analysing Arguments"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/statement_conclusion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Statement &amp; Conclusion"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/statement_arguments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Statement &amp; Arguments"
+                android:onClick="StartReasoning"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:textAlignment="center"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

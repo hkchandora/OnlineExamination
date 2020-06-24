@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "336253277156",
+    "firebase_url": "https://onlineexamination-50e36.firebaseio.com",
+    "project_id": "onlineexamination-50e36",
+    "storage_bucket": "onlineexamination-50e36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336253277156:android:a4d21081acafad44be6df1",
+        "android_client_info": {
+          "package_name": "com.himanshu.onlineexamination"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336253277156-vgbi653e1bleu62ihak38602hrssamuh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.himanshu.onlineexamination",
+            "certificate_hash": "f6096574a85b16575d8c2f90f5c8ee8e3f917c85"
+          }
+        },
+        {
+          "client_id": "336253277156-cd6fk5ajp4sgbucr50ul7st8dlmb0p7v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.himanshu.onlineexamination",
+            "certificate_hash": "4c70e318844c8b203a569e6037ae444bef380d6d"
+          }
+        },
+        {
+          "client_id": "336253277156-7r3cosecn7mecfl5t2258ndu06c24qdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwoBWgOe70P2whrB_KNdlpm8FWLljM2gI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336253277156-7r3cosecn7mecfl5t2258ndu06c24qdm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

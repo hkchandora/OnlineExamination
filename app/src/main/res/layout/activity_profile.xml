@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".UI.Profile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="294dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/textView34"
+            tools:layout_editor_absoluteX="16dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:gravity="start"
+                    android:background="@drawable/ic_back_arrow"
+                    android:onClick="BackButton"
+                    android:layout_alignParentStart="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Edit Profile"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:onClick="EditProfileTxt"
+                    android:textSize="15sp"/>
+            </RelativeLayout>
+
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/input_design"
+                    android:padding="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/profile"
+                    android:textAlignment="center"
+                    android:visibility="visible"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="55dp" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/white"
+                    android:onClick="UpdateProfile"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/profile_upload_icon"
+                    app:layout_constraintBottom_toBottomOf="@id/imageView4"
+                    app:layout_constraintEnd_toEndOf="@id/imageView4" />
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="casual"
+                android:text="@string/user_detail"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                tools:layout_editor_absoluteX="16dp" />
+
+
+            <TextView
+                android:id="@+id/currentUserNameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/input_design"
+                android:padding="10dp"
+                android:text="Name = "
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/currentUserRollNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/input_design"
+                android:padding="10dp"
+                android:text="Roll no ="
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/currentUserGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/input_design"
+                android:padding="10dp"
+                android:text="Gender = "
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="casual"
+                android:text="@string/college_detail"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+                tools:layout_editor_absoluteX="48dp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/input_design"
+                android:padding="10dp"
+                android:text="Stream =\nClass =\nDivision =\nAddress ="
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textView35"
+                tools:layout_editor_absoluteX="57dp" />
+
+            <Button
+                android:id="@+id/logOutBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/buttons"
+                android:text="Log Out"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
