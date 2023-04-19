@@ -8,25 +8,25 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:336253277156:android:a4d21081acafad44be6df1",
+        "mobilesdk_app_id": "1:336253277156:android:3699d812a9d47575be6df1",
         "android_client_info": {
-          "package_name": "com.himanshu.onlineexamination"
+          "package_name": "com.himanshu.examination"
         }
       },
       "oauth_client": [
         {
-          "client_id": "336253277156-vgbi653e1bleu62ihak38602hrssamuh.apps.googleusercontent.com",
+          "client_id": "336253277156-2bhgv7scclenh1jc0i5bgr5jitqtqirl.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.himanshu.onlineexamination",
+            "package_name": "com.himanshu.examination",
             "certificate_hash": "f6096574a85b16575d8c2f90f5c8ee8e3f917c85"
           }
         },
         {
-          "client_id": "336253277156-cd6fk5ajp4sgbucr50ul7st8dlmb0p7v.apps.googleusercontent.com",
+          "client_id": "336253277156-hp0btrue3iho2ikteac1s6tsimmsvp8v.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.himanshu.onlineexamination",
+            "package_name": "com.himanshu.examination",
             "certificate_hash": "4c70e318844c8b203a569e6037ae444bef380d6d"
           }
         },

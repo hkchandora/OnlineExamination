@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.himanshu.examination">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -13,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.himanshu.examination.Admin.AdminMain"></activity>
+        <activity android:name="com.himanshu.examination.Admin.AdminMain" />
         <activity android:name="com.himanshu.examination.Admin.RegisteredUsers" />
         <activity
             android:name="com.himanshu.examination.UI.EditProfile"
